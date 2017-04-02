@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+		<title>UADMIN</title>
+		<link rel="stylesheet" type="text/css" href="/__CSS" />
+	</head>
+	<body>
+		<script src="/UPPERCASE-BROWSER-PACK/IMPORT.js"></script>
+		
+		<script>
+			BOX('UUI');
+			BOX('UANI');
+			BOX('Yogurt');
+			BOX('UADMIN');
+			
+			CONFIG.defaultBoxName = 'UADMIN';
+			
+			BROWSER_CONFIG.Yogurt = {
+				menuLayoutMenuWidth : 250,
+				toolbarBackground : 'linear-gradient(#4183c4, #2B6DAD)',
+				toolbarColor : '#4183c4'
+			};
+		</script>
+		
+		<!-- IMPORT BOXes. -->
+		<script src="/__SCRIPT?boxName=UUI"></script>
+		<script src="/__SCRIPT?boxName=UANI"></script>
+		<script src="/__SCRIPT?boxName=Yogurt"></script>
+		<script src="/__SCRIPT?boxName=UADMIN"></script>
+	</body>
+</html>
